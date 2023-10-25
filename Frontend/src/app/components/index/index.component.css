@@ -7,7 +7,8 @@
   text-align: center;
   justify-content: center;
   border-radius: 10px;
-  
+  display:flex;
+
 }
 
 .imagen
@@ -19,6 +20,7 @@
 }
 .elemento {
   background-color: #2b0c59, transparent;
+  flex:1;
 }
 .navbar-color
 {
