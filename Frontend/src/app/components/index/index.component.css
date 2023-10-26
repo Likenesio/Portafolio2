@@ -60,3 +60,16 @@ p{
   font-family:Franklin Gothic Medium;
   padding: 10px 20px;
 }
+ .icon{
+  text-align: center;
+  align-items: center;
+  flex: 1;
+  width: 55%;
+  margin: 0;
+  height: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  fill: aliceblue;
+ }
