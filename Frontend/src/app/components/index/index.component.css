@@ -5,6 +5,7 @@ html{
   width: 100%;
   height: 100%;
   border: 1px solid black;
+  padding: 0%
 }
 p{
   text-align: justify
@@ -47,4 +48,15 @@ p{
   display:flex;
   flex-wrap: wrap;
   color: aliceblue;
+}
+
+.button{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #8b6cc0;
+  color: aliceblue;
+  font-size: 20px;
+  font-family:Franklin Gothic Medium;
+  padding: 10px 20px;
 }
