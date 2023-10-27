@@ -26,6 +26,7 @@ li{
   border-radius: 10px;
   display:flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .imagen
@@ -36,21 +37,29 @@ li{
   border-radius: 10px;
   flex:1;
 }
+.presentacion{
+  flex:1;
+  padding: 10px;
+
+}
 .elemento {
   flex:1;
+  padding: 10px;
+  align-self: stretch;
 
 }
 .navbar-parents
 {
   align-items: center;
   text-align: center;
+  align-items: center;
   justify-content: center;
   border-radius: 10px;
   display:flex;
   flex-wrap: wrap;
   color: aliceblue;
+  box-sizing: border-box;
 }
-
 .button{
   height: 100%;
   width: 100%;
@@ -60,7 +69,9 @@ li{
   font-size:.85rem ;
   font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
   padding:.75em ;
-  border-radius:.25em ;
+  border-radius:.40em ;
+  box-shadow: 10px 5px 5px black;
+  box-sizing: border-box;
 }
  .icon{
   text-align: center;
@@ -74,9 +85,16 @@ li{
   margin-left: 0;
   margin-right: 0;
   fill: aliceblue;
- }
+  border-radius: 18px;
+  align-self: stretch;
+}
+.box-proyect{
+  box-shadow: 10px 5px 5px black;
+}
 
- @media (max-width: 768px) {
+
+
+@media only screen and (max-width: 768px) {
   .navbar-parents {
     flex-direction: column;
   }
@@ -84,7 +102,7 @@ li{
     max-width: 100%;
   }
   .elemento {
-    flex: 0;
+    flex: 1;
     margin: 20px 0;
   }
   .button {
@@ -92,6 +110,25 @@ li{
     height: auto;
     margin: 0;
     overflow:auto;
-    flex: 1;
+    box-shadow: 10px 5px 5px black;
+    align-self: stretch;
   }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .imagen {
+      max-width: 50%;
+      max-height: 40%;
+    }
+    .elemento {
+      flex: 1;
+      margin: 20px;
+
+    }
+    .button {
+      width: 95%;
+      height: auto;
+      margin: 0;
+      flex: 1;
+      box-shadow: 10px 5px 5px black;
+    }
+    }
 }
