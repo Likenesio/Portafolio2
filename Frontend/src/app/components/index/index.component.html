@@ -8,7 +8,7 @@
     class="navbar navbar-expand-lg navbar-light bg-light"
   >
     <div class="m-lg-2">
-      <a class="navbar-brand m-lg-2"  style="font-family: cursive; font-size: 25px; color: aliceblue;" href="#">Mi Portafolio</a>
+      <a class="navbar-brand"  style="font-family: cursive; font-size: 25px; color: aliceblue;" href="#inicio">Mi Portafolio</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -27,22 +27,16 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a style="color: aliceblue;" class="nav-link active" aria-current="page" id="inicio" href="#inicio">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a style="color: aliceblue;" class="nav-link" href="#proyectos">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Aptitudes</a>
+            <a style="color: aliceblue;" class="nav-link" href="#formacion">Formación</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link enable"
-              href= "#"
-              tabindex="1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+            <a  style="color: aliceblue;" class="nav-link" href="#aptitudes">Aptitudes</a>
           </li>
         </ul>
       </div>
@@ -52,11 +46,11 @@
 
   <body>
 
-    <section class="container presentacion">
+    <section id="presentacion" class="container presentacion">
             <div class="card-body d-sm-inline-flex"  style=" font-size: 20px;">
-              <img src="/assets/valentin.png" class="imagen" />
+              <img src="/assets/vale.svg" class="imagen" />
               <p
-                class="m-4 align-self-md-center">
+                class="m-4">
                 Valentin Oliva
 
                 <br />
@@ -78,12 +72,12 @@
               </p>
             </div>
             <div>
-              <button class="button">
+              <button class="button1">
                 <a href="assets/curriculum vitae.pdf" download > Download CV </a>
               </button>
            </div>
            <div>
-            <button class="button m-3">
+            <button class="button1 m-3">
               <a href="assets/certificado.pdf" download > Certificado </a>
             </button>
          </div>
@@ -102,13 +96,14 @@
           </div>
 
 
-          <section class="container">
+          <section id="proyectos" class="container">
             <div class="elemento box-proyect">
               <div class="card ">
                 <div class="card-body">
                   <h5 class="card-title">Conversor de UF - CLP</h5>
                   <a [href]="'https://github.com/Likenesio/Conversion.git'">
                     Conversor-Backend</a>
+                    <br>
                     <a [href]="'https://github.com/Likenesio/conversion-front.git'">
                   Conversor-Frontend</a
                 >
@@ -128,10 +123,19 @@
     </section>
 
     <div class="container"  style="font-family: cursive; font-size: 25px;">
+      <p>Formación</p>
+    </div>
+
+
+    <section id="formacion">
+
+    </section>
+
+    <div class="container"  style="font-family: cursive; font-size: 25px;">
       <p>Aptitudes</p>
     </div>
 
-    <section>
+    <section id="aptitudes">
       <div class="aptitudes elemento">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
