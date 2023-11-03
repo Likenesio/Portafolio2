@@ -1,0 +1,23 @@
+.container
+{
+  margin-top: 5%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+}
+
+.box-proyect{
+  box-shadow: 10px 5px 5px black;
+  align-self: stretch;
+  flex:1;
+  padding: 10px;
+  color: aliceblue;
+  background-color: #1b004b;
+}
+
+

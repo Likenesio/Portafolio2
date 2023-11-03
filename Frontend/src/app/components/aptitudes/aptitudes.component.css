@@ -1,0 +1,30 @@
+.container
+{
+  margin-top: 5%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+}
+.aptitudes{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: 1%;
+
+}
+
+.elemento {
+  flex:1;
+  padding: 10px;
+  align-self: stretch;
+
+}

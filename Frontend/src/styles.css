@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  flex:1;
+  display: block;
+  font: inherit;
+  background-color: #1b004b;
+  line-height: 1;
+  color: aliceblue;
+}
+
+a{
+  color: aliceblue;
+}
