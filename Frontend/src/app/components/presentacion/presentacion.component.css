@@ -1,15 +1,12 @@
 .container
 {
-  margin-top: 5%;
   align-items: center;
-  text-align: center;
   justify-content: center;
   border-radius: 10px;
   display:flex;
   flex-wrap: wrap;
   box-sizing: border-box;
   flex:1;
-  padding: 10px;
   text-align: justify;
   white-space: pre-wrap;
 }
@@ -18,47 +15,40 @@
   max-width: 25%;
   height: auto;
   border-radius: 10px;
-  flex:1;
   box-sizing: border-box;
   align-self: stretch;
 }
 
-.button1{
-  height: 100%;
-  width: 100%;
-  border-radius: 5px;
+.container-button-icon{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: stretch;
+}
+
+.button{
   background-color: #8b6cc0;
-  color: aliceblue;
-  font-size:.85rem ;
   padding:.75em ;
   border-radius:.40em ;
   box-shadow: 10px 5px 5px black;
-  box-sizing: border-box;
 }
 
 .icon{
-  text-align: center;
-  align-items: center;
-  flex: 1;
-  width: 40%;
-  margin: 2.5vh;
-  height: 30%;
-  margin-right: 0;
+  margin: 1vh;
   fill: aliceblue;
   border-radius: 18px;
-  align-self: stretch;
 }
 
 @media only screen and (max-width: 767px) {
 .container
 {
-  margin-top: 5%;
   align-items: center;
   text-align: center;
   justify-content: center;
   border-radius: 10px;
   display:flex;
-
   box-sizing: border-box;
   flex:1;
   padding: 10px;
@@ -81,9 +71,26 @@
     align-self: stretch;
   }
 }
+@media only screen and (max-width: 767px) {
+  .container
+{
+  margin-top: 10vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  display:flex;
+  box-sizing: border-box;
+  flex:1;
+  padding: 10px;
+  text-align: left;
+  text-wrap: pretty;
 
+}
+}
 /*Resolución para Tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
   .imagen {
     max-width: 30vh;
     align-self: stretch;
